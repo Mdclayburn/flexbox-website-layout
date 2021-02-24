@@ -117,7 +117,7 @@ footer {
 }
 
 main {
-  background-color: #ccc;
+  background-color:plum;
   height: 250px;
   width: 100%;
 }
@@ -132,21 +132,23 @@ main {
 
 .flex-container {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-flow: row wrap;
+    font-weight: 500;
 }
 
 .flex-items {
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+    align-items: center;
+    color: #fff;
+    line-height: 2em;
+    font-size: 1em;
+    background-color: darkcyan;
+    width: 30%;
+    height: 300px;
+    display:flex;
+    flex-flow: row;
+    padding: 0.9em;
 }
 
 /* ==========================================================================
